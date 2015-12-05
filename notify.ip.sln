@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24627.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpChangeNotifyService", "IpChangeNotifyService\IpChangeNotifyService.csproj", "{5777896F-03C1-4860-A93B-10566F98F5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIpChangeNotify", "TestIpChangeNotify\TestIpChangeNotify.csproj", "{E2B2DBB3-65D9-416B-AA3B-68F770F07FEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{A03056EA-8C70-4905-A621-2FB39759E9AC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5777896F-03C1-4860-A93B-10566F98F5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5777896F-03C1-4860-A93B-10566F98F5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5777896F-03C1-4860-A93B-10566F98F5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5777896F-03C1-4860-A93B-10566F98F5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B2DBB3-65D9-416B-AA3B-68F770F07FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B2DBB3-65D9-416B-AA3B-68F770F07FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B2DBB3-65D9-416B-AA3B-68F770F07FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B2DBB3-65D9-416B-AA3B-68F770F07FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
