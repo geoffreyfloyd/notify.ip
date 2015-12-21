@@ -41,8 +41,7 @@ namespace WindowsIpChangeNotifyService
             string externalIp = GetPublicIP();
 
             // Server Address
-            var localIP = Dns.GetHostEntry(Dns.GetHostName()).AddressList.Where(o => o.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork).First().ToString();
-
+            var localIP = "127.0.0.1"; // Dns.GetHostEntry(Dns.GetHostName()).AddressList.Where(o => o. o.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork).First().ToString();
             Notify(localIP, externalIp);
         }
 
