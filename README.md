@@ -2,6 +2,8 @@
 
 installutil path/to/build/IpChangeNotifyService.exe
 
+When prompted for user and password, it must be in format domain/username
+
 # Uninstall
 
 installutil /u path/to/build/IpChangeNotifyService.exe
